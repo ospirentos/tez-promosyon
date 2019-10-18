@@ -1,0 +1,43 @@
+.mainFrame {
+  width: 150px;
+  height: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  font-size: 25px;
+  font-weight: bold;
+  color: #e7302a;
+
+  text-shadow: 3px 5px 4px rgba(150, 150, 150, 1);
+
+  background-color: #e7302a00;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+}
+
+.mainFrame:focus {
+  outline: none;
+}
+
+.mainFrame:hover {
+  -webkit-animation-name: hoverAnimation; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: hoverAnimation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hoverAnimation {
+  from {
+    background-color: #e7302a00;
+  }
+  to {
+    background-color: #878786;
+  }
+}
