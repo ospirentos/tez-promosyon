@@ -3,13 +3,13 @@ import "./index.css"
 
 import PropTypes from "prop-types"
 
-export default class Item extends Component {
+export default class Button extends Component {
   render() {
     const { text } = this.props
-    return <button className="mainFrame">{text}</button>
+    return <button className="button-main-frame">{text}</button>
   }
 }
 
-Item.propTypes = {
+Button.propTypes = {
   text: PropTypes.string
 }

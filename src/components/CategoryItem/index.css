@@ -1,4 +1,16 @@
-.image-container {
-  height: auto;
+.main-category-container {
+  margin:30px;
   display: inline-block;
+}
+
+.image-main {
+  border: 1px solid black;
+}
+
+.category-text {
+  font-size: 25px;
+  font-weight:500;
+  color: #e7302a;
+  background: #e8e8e8;
+  text-shadow: 4px 3px 3px rgba(150, 150, 150, 1);
 }

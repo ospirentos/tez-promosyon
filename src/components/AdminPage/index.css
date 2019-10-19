@@ -1,0 +1,32 @@
+.admin-page-main-container {
+    background-color: red;
+    display: grid;
+    grid-template-areas: 
+    'options configurations configurations configurations configurations configurations';
+}
+
+.admin-page-options-container {
+    background-color: yellow;
+    grid-area: options
+}
+
+.admin-page-configuration-container {
+    background-color: green;
+    grid-area: configurations
+}
+
+.admin-page-option {
+    padding: 10px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    border-bottom: 1px solid gray;
+    list-style-type: none;
+}
+
+.admin-page-option:hover {
+    cursor: pointer
+}
